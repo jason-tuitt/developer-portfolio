@@ -24,11 +24,38 @@
 <body>
 	<div class="container-fluid">
 
+		<div class="row navbar-row">
+			<nav class="navbar navbar-expand-lg">
+				<a class="navbar-brand" href="#"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Bio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact Me</a>
+						</li>
+
+					</ul>
+				</div>
+			</nav>
+		</div>
+
 		<div class="row">
 			<div class="col col-sm-12" id="landingView">
 				<div>
 					<h2>Jason D. Dela Torre</h2>
-					<p>Software Developer <i class="fas fa-times"></i> Mechanical Engineer</p>
+					<p> Mechanical Engineer <i class="fas fa-times"></i> Software Developer</p>
 				</div>
 			</div>
 		</div>
@@ -43,25 +70,61 @@
 				<div class="row">
 					<div class="col col-sm-6">
 						<div class="row">
-							<header>
-								<p><a href = "mailto: jason.d.delatorre@gmail.com">jason.d.delatorre@gmail.com</a></p>
-								<p><a href = "http://github.com/jasondelatorre">github.com/jasondelatorre</a></p>
+							<header id="developerBio">
+								<h2 style="font-size:24px;">Developer Bio</h2>
+								<!-- <p><a href = "mailto: jason.d.delatorre@gmail.com">jason.d.delatorre@gmail.com</a></p>
+								<p><a href = "http://github.com/jasondelatorre">github.com/jasondelatorre</a></p> -->
 							</header>
 						</div>
 						<div class="row" id="bio">
-							<img src="./assets/img/image1.jpg">
-							<h1>Jason D. Dela Torre</h1>
-							<ul>
-								<li>Web Developer</li>
-								<li>Mechanical Engineer</li>
-								<li>Project Manager</li>
-							</ul>
-							<p>
-							A mechanical engineer who plans to transition to web development and big data. Interested in up and coming technologies around the world. A student and a nerd at heart. Spends his free time watching math, and physics videos on youtube, with the occassional twitch streams. Hopes to develop software that can change status quo. </p>
+							<div class="col col-sm-12">
+								<div class="row">
+									<img src="./assets/img/image1.jpg">
+								</div>
+								<h1>Jason D. Dela Torre</h1>
+								<ul>
+									<li>Mechanical Engineer |</li>
+									<li>Web Developer |</li>
+									<li>Project Manager</li>
+								</ul>
+								<p>
+								A mechanical engineer who plans to transition to web development and big data. Interested in up and coming technologies around the world. A student and a nerd at heart. Spends his free time watching math, and physics videos on youtube, with the occassional twitch streams. Hopes to develop software that can change status quo. </p>
+							</div>
 						</div>	
 					</div>
 					<div class="col col-sm-6">
-						<h2>sdfsdf</h2>
+						<div class="row">
+							<h2 id="skillsets">Skillsets</h2>
+						</div>
+						<div class="row">
+							<div class="col col-sm-1"></div>
+							<div class="col col-sm-10">
+							<div class="progress">
+								<div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">HTML</div>
+							</div>
+							<div class="row" style="height:10px;"></div>
+							<div class="progress">
+								<div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">CSS</div>
+							</div>
+							<div class="row" style="height:10px;"></div>
+							<div class="progress">
+								<div class="progress-bar bg-warning" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">JAVASCRIPT</div>
+							</div>
+							<div class="row" style="height:10px;"></div>
+							<div class="progress">
+								<div class="progress-bar bg-danger" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">PHP</div>
+							</div>
+							<div class="row" style="height:10px;"></div>
+							</div>
+							<div class="col col-sm-1"></div>
+						</div>
+						<div class="row">
+							<div class="col col-sm-6">
+							</div>
+							<div class="col col-sm-6">
+								
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -74,7 +137,38 @@
 
 		<div class="row">
 			<div class="col col-sm-12" id="projects">
-				<h2>Projects</h2>
+				<div class="row">
+					<h2 id="projectsHeader">Projects</h2>
+				</div>
+				<div class="row">
+					<div class="col col-sm-4">
+						<div class="card">
+						  <img class="card-img-top" src="./assets/img/caps1.png" alt="Card image cap">
+						  <div class="card-body">
+						  	<h5 class="card-title">Capstone 1 Project</h5>
+						    <p class="card-text">TOP CORNER: AN ONLINE FOOTBALL NEWS SITE</p>
+						  </div>
+						</div>
+					</div>
+					<div class="col col-sm-4">
+						<div class="card">
+						  <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+						  <div class="card-body">
+						  	<h5 class="card-title">Capstone 2 Project</h5>
+						    <p class="card-text">Under construction...</p>
+						  </div>
+						</div>
+					</div>
+					<div class="col col-sm-4">
+						<div class="card">
+						  <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+						  <div class="card-body">
+						  	<h5 class="card-title">Capstone 3 Project</h5>
+						    <p class="card-text">Under construction...</p>
+						  </div>
+						</div>
+					</div>
+				</div>	
 			</div>
 		</div>
 
@@ -85,7 +179,15 @@
 		
 		<div class="row">
 			<div class="col col-sm-12" id="contact">
-				<h2>Contact</h2>
+				<div id="contact-container">
+					<p id="contactsHeader">Contact Me!</p>
+					<ul>
+						<li class="contact-us-social-media"><i class="fab fa-facebook"></i></li>
+						<li class="contact-us-social-media"><i class="fab fa-twitter-square"></i></li>
+						<li class="contact-us-social-media"><i class="fab fa-instagram"></i></li>
+						<li class="contact-us-social-media"><i class="fas fa-envelope"></i></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 
