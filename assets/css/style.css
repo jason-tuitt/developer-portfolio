@@ -4,225 +4,78 @@
 	box-sizing:border-box;
 }
 
-/*353535
-3C6E71
-FFFFFF
-D9D9D9
-284B63*/
-
 /*
 *
 *
 *
 */
-
-/*font-family: 'Ubuntu', sans-serif;
-font-family: 'Roboto', sans-serif;*/
-
-section{
-	min-height: 100vh;
-}
-
-/*
-*
-*
-*
-*/
-
 
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 24px;
-	font-weight: 600;
+	/*font-weight: 600;*/
 }
 
-/*.container-fluid {
-	padding:0;
-}*/
-
-
-.navbar-row {
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,79,115,1) 52%, rgba(12,68,106,1) 100%, rgba(0,212,255,1) 100%);;
-	opacity: 1;
+#portfolioApp {
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,79,115,1) 52%, rgba(12,68,106,1) 100%, rgba(0,212,255,1) 100%);
 	font-size: 18px;
 	color: #fff;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
 
-#navbarSupportedContent a,
-.navbar a {
-	color:white;
+#portfolioApp > div {
+	width: 100%;
 }
 
-#landingView {
-	background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,79,115,1) 52%, rgba(12,68,106,1) 100%, rgba(0,212,255,1) 100%);
-	height:100vh;
+#landing {
+	min-height: 100vh;
 }
 
-#landingView > div {
-	border:2px solid white;
-	width:40%;
-	margin: 0 auto;
-	position:relative;
-	top:40%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	transition: border-radius 0.8s;
+#about {
+	min-height: 100vh;
+	flex-wrap: nowrap;
+	display: flex;
+	flex-direction: row;
 }
-#landingView > div:hover {
-	border-radius: 300px;
-}
-
-#landingView > div > p,
-#landingView > div > h2 {
-	color:white;
-	text-align: justify;
-	text-align-last: center;
-}
-
-/*
-.col {
-	padding: 0;
-	margin:0;
-}*/
-
-.inbetween{
-	height: 2px;
-	background-color: #ee4c60;
-}
-
-#details {
-	color:#FFF;
-	background-color: #353535;
-	height:100vh;
-}
-
-#details {
-	height:65vh;
-}
-
-#bio img {
-	width:30%;
-	height:200px;
-	display: block;
-	margin: 0 auto;
-	border-radius: 20px;
-}
-
-#developerBio,
-#skillsets {
-	margin:0 auto;
-	padding-top: 10px;
-}
-
-#skillsets {
-	padding-bottom: 50px;
-}
-
-
-#bio h1 {
-	text-align: center;
-	font-size: 24px;
-	padding-top: 15px;
-}
-
-#bio ul {
-	text-align: center;
-}
-#bio ul > li {
-	display: inline-block;
-	font-size: 16px;
-	text-align: center;
-}
-#bio p {
-	text-align: center;
-	font-size: 20px;
-	padding:5px 15px;
-}
-
-.card {
-	margin-bottom: 15px;
+#about div {
+	flex:1;
 }
 
 #projects {
-	background-color: #D9D9D9;
-	min-height: 40vh;
-	padding-top: 10px;
+	min-height: 50vh;
+	display: flex;
+	flex-direction: column;
+}
+#projects #cardSet {
+	display: flex;
+	flex-wrap: nowrap;
+}
+#projects #cardSet .card {
+	margin: 20px;
+	color: black;
 }
 
-#projectsHeader {
-	margin: 0 auto;
-	padding-bottom: 10px;
+#projects #cardSet .card img {
+	width: 100%;
+}
+
+#projects div {
+	flex:1;
 }
 
 #contact {
-	background-color: #284B63;
-	min-height: 30vh;
-	padding-top: 10px;
+	min-height: 20vh;
+	display: flex;
 }
 
-#contactsHeader {
-	padding-bottom: 10px;
-	margin:0 auto;
-	color:#F7F7F7;
-}
-#contact-container {
-	position: relative;
-	top:80px;
-	text-align: center;
-	width:30%;
-	margin: 0 auto;
-	border: 2px solid white;
-	color: white;
-	transition: border-radius 0.2s;
-}
-#contact-container:hover {
-	border-radius: 100px;
+#contact {
+
 }
 
-.contact-us-social-media {
-	display: inline-block;
-	list-style: none;
-}
-/*
-section#bio > div#details > h1,
-section#bio > div#details > ul {
-	font-family: 'Nanum Pen Script', cursive;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-section#bio > div#details > h1 {
-	font-size: 30px;
-}
-
-section#bio > div#details > ul{
-	list-style: none;
-	font-size: 15px;
-}*/
-
-
-/*
-*
-*
-*
-*/
-
-#mainFooter {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	text-align: center;
-	background-color: #633204;
-	color: lightgrey;
-/*	position: absolute;*/
-	bottom: 0;
-	width: 100%;
-	font-size: 20px;
-}
-
-
-footer a{
-	color: lightgrey;
+#ending {
+	min-height: 5vh;
 }
 
 
